@@ -7,8 +7,10 @@
     <Nullable>enable</Nullable>
     <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
     <AssemblyName>ImageConverter</AssemblyName>
+    <ApplicationIcon>Assets\App.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Assets\App.ico" />
     <PackageReference Include="Magick.NET-Q8-AnyCPU" Version="15.0.0" GeneratePathProperty="true" />
   </ItemGroup>
   <ItemGroup>

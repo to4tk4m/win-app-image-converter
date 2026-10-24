@@ -41,6 +41,7 @@ public sealed class MainForm : Form
     public MainForm()
     {
         Text = "画像フォーマット変換";
+        Icon = new Icon(typeof(MainForm), "Assets.App.ico");
         Font = new Font("Yu Gothic UI", 10F);
         AutoScaleMode = AutoScaleMode.Dpi;
         ClientSize = new Size(720, 480);

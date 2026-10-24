@@ -1,5 +1,27 @@
+# Build and publish output
 **/bin/
 **/obj/
+/artifacts/
+
+# Restored NuGet packages (keep NuGet.Config trackable)
+**/.nuget/packages/
+*.nupkg
+*.snupkg
+
+# Visual Studio local settings and cache
 .vs/
-artifacts/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Test output
+TestResults/
+
+# Temporary and Windows-generated files
+*.tmp
+*.temp
+*~
+Thumbs.db
+Desktop.ini
 
